@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Pranav',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
@@ -31,9 +31,9 @@ const CONFIG = {
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
-  trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+  defaultLatitude: '12.792', 
+  defaultLongitude: '77.505',
 
   // Autochange
   autoChangeTheme: true,
@@ -53,38 +53,38 @@ const CONFIG = {
   firstButtonsContainer: [
     {
       id: '1',
-      name: 'Github',
-      icon: 'github',
-      link: 'https://github.com/',
+      name: 'Twitter',
+      icon: 'twitter',
+      link: 'https://twitter.com/',
     },
     {
       id: '2',
-      name: 'Mail',
-      icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      name: '2048',
+      icon: 'framer',
+      link: 'https://play2048.co/',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
+      name: 'LinkedIn',
+      icon: 'linkedin',
+      link: 'https://linkedin.com',
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Reddit',
+      icon: 'trash',
+      link: 'https://reddit.com',
     },
     {
       id: '5',
-      name: 'Reddit',
-      icon: 'glasses',
-      link: 'https://reddit.com',
+      name: 'Youtube',
+      icon: 'youtube',
+      link: 'https://youtube.com',
     },
     {
       id: '6',
       name: 'Odysee',
-      icon: 'youtube',
+      icon: 'play',
       link: 'https://odysee.com/',
     },
   ],
