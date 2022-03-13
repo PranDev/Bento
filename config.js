@@ -161,20 +161,20 @@ const CONFIG = {
       id: '2',
       links: [
         {
-          name: 'Linkedin',
-          link: 'https://www.linkedin.com',
+          name: 'Facebook',
+          link: 'https://www.facebook.com',
         },
         {
-          name: 'Dribbble',
-          link: 'https://www.dribbble.com',
+          name: 'Spotify',
+          link: 'https://www.spotify.com',
         },
         {
-          name: 'Trello',
-          link: 'https://www.trello.com',
+          name: 'Discord',
+          link: 'https://discord.com/app',
         },
         {
-          name: 'Slack',
-          link: 'https://www.slack.com',
+          name: 'IndianAnimation',
+          link: 'https://www.reddit.com/r/IndianAnimation',
         },
       ],
     },
