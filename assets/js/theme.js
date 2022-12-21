@@ -8,6 +8,7 @@ const themeToggle = document.querySelector('#themeButton');
 const bodyBackground = document.getElementById('#body');
 
 const enableDark = () => {
+  console.log("meow");
   document.body.classList.add('darktheme');
   localStorage.setItem('darkTheme', 'enabled');
   themeToggle.innerHTML = `<i id="themeButton__icon" icon-name="sun"></i>`;
@@ -15,6 +16,7 @@ const enableDark = () => {
 };
 
 const disableDark = () => {
+  console.log("bow");
   document.body.classList.remove('darktheme');
   localStorage.setItem('darkTheme', null);
   themeToggle.innerHTML = `<i id="themeButton__icon" icon-name="moon"></i>`;
@@ -58,7 +60,9 @@ if (
   CONFIG.autoChangeTheme &&
   !CONFIG.changeThemeByOS
 ) {
-  const date = new Date();
+
+  var dtemp = new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" });
+  const date = new Date(Date.parse(dtemp));
   const hours =
     date.getHours() < 10
       ? '0' + date.getHours().toString()
@@ -68,6 +72,7 @@ if (
       ? '0' + date.getMinutes().toString()
       : date.getMinutes().toString();
   const currentTime = hours + ':' + minutes;
+  
   if (currentTime >= CONFIG.hourDarkThemeActive) {
     enableDark();
   } else if (currentTime >= CONFIG.hourDarkThemeInactive) {

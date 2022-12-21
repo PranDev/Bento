@@ -3,7 +3,8 @@
 // └─┘┴└─└─┘└─┘ ┴ ┴┘└┘└─┘└─┘
 // Function to set Greetings
 
-const today = new Date();
+var dtemp = new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" });
+var today = new Date(Date.parse(dtemp));
 const hour = today.getHours();
 const name = CONFIG.name;
 

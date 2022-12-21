@@ -20,7 +20,8 @@ function displayClock() {
     'Dec',
   ];
 
-  var d = new Date();
+  var dtemp = new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" });
+  var d = new Date(Date.parse(dtemp));
   var mm = monthNames[d.getMonth()];
   var dd = d.getDate();
   var min = (mins = ('0' + d.getMinutes()).slice(-2));
