@@ -29,7 +29,7 @@ async function getRandomLine(filePath) {
     const text = await response.text();
 
     // Split the text by new lines to get an array of lines
-    const lines = text.split('\n');
+    const lines = text.split('=====');
 
     // Filter out any empty lines (optional)
     const nonEmptyLines = lines.filter(line => line.trim() !== '');
