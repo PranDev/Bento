@@ -60,7 +60,8 @@ const CONFIG = {
     {
       id: '2',
       name: '2048',
-      icon: 'framer',
+      // icon: 'framer',
+      icon: '2048',
       link: 'https://play2048.co/',
     },
     {
@@ -81,10 +82,16 @@ const CONFIG = {
       icon: 'youtube',
       link: 'https://youtube.com',
     },
+    // {
+    //   id: '6',
+    //   name: 'Odysee',
+    //   icon: 'play',
+    //   link: 'https://odysee.com/',
+    // },
     {
       id: '6',
-      name: 'Odysee',
-      icon: 'play',
+      name: 'Inoreader',
+      icon: 'inoreader',
       link: 'https://odysee.com/',
     },
   ],

@@ -5,13 +5,23 @@
 
 const generateFirstButtonsContainer = () => {
   for (const button of CONFIG.firstButtonsContainer) {
+    // let item = `
+    //     <a
+    //       href="${button.link}"
+    //       target="${CONFIG.openInNewTab ? '_blank' : ''}"
+    //       class="card button button__${button.id}"
+    //     >
+    //       <i class="buttonIcon" icon-name="${button.icon}"></i>
+    //     </a>
+    // `;
+
     let item = `
         <a
           href="${button.link}"
           target="${CONFIG.openInNewTab ? '_blank' : ''}"
           class="card button button__${button.id}"
         >
-          <i class="buttonIcon" icon-name="${button.icon}"></i>
+          <img src="assets/icons/${button.icon}.svg" alt="${button.name} Icon" class="buttonIcon" />
         </a>
     `;
 
