@@ -62,7 +62,7 @@ const CONFIG = {
       name: '2048',
       // icon: 'framer',
       icon: '2048',
-      link: 'https://play2048.co/',
+      link: 'https://classic.play2048.co/',
     },
     {
       id: '3',
