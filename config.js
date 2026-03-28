@@ -92,7 +92,7 @@ const CONFIG = {
       id: '6',
       name: 'Inoreader',
       icon: 'inoreader',
-      link: 'https://odysee.com/',
+      link: 'https://www.inoreader.com/all_articles/',
     },
   ],
 
